@@ -47,7 +47,7 @@ export default class ImageLoad {
         this.bg.position.y = y;
         this.container.addChild(this.bg);
 
-        this.displacementSprite = PIXI.Sprite.from('../img/displacement.jpg');
+        this.displacementSprite = PIXI.Sprite.from('img/displacement.jpg');
         this.displacementSprite.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT;
         this.displacementFilter = new PIXI.filters.DisplacementFilter(this.displacementSprite);
 
